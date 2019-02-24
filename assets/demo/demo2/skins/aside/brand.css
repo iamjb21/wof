@@ -42,13 +42,13 @@
     background-color: #006aba;
     -webkit-box-shadow: none;
     box-shadow: none;
-    border-bottom: 1px solid #0078e9;
+    border-bottom: 1px solid #00529e;
     }
     .k-aside__brand .k-aside__brand-tools .k-aside__brand-aside-toggler span{
-        background:#0078f1
+        background:#0052a3
     }
     .k-aside__brand .k-aside__brand-tools .k-aside__brand-aside-toggler span::before,.k-aside__brand .k-aside__brand-tools .k-aside__brand-aside-toggler span::after{
-        background:#0078f1
+        background:#0052a3
     }
     .k-aside__brand .k-aside__brand-tools .k-aside__brand-aside-toggler:hover span{
         background:#fff
@@ -440,4 +440,3 @@
         border-bottom:1px solid rgba(0,0,0,0.07) 
     }
 }
- 

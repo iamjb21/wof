@@ -4,3 +4,34 @@
     width: 40px;
     border-radius: 20px;
 }
+
+.k-bg-brand {
+    background-color: #006ac0 !important;
+}
+
+.nav-pills, .nav-tabs{
+	margin-bottom: 0px !important;
+	margin-left: 20px;
+}
+
+.nav-pills .nav-item .nav-link:active, .nav-pills .nav-item .nav-link.active, .nav-pills .nav-item .nav-link.active:hover {
+    background-color: #006ac0;
+    color: #fff;
+	border-radius: 25px;
+    padding: 10px;
+    border: 2px solid #006ac0;
+}
+.nav-pills.nav-tabs-btn .nav-link{
+	border: 2px solid #006ac0;
+	border-radius: 25px;
+}
+
+.btn-brand {
+    color: #fff;
+    background-color: #006ac7;
+    border-color: #006ac7;
+}
+
+.form-control[readonly] {
+    background-color: #deeaf4;
+}
