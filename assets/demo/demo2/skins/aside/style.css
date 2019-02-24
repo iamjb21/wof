@@ -4,3 +4,7 @@
     width: 40px;
     border-radius: 20px;
 }
+
+.k-bg-brand {
+    background-color: #006ac0 !important;
+}
