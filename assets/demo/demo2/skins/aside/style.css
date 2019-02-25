@@ -35,3 +35,26 @@
 .list-avatar{
 	text-indent: right;
 }
+
+.text-muted-group{
+    margin-bottom: 20px;
+    line-height: 10px;
+}
+.text-sup-muted{
+    font-size: 0.9rem;
+}
+sup{
+    color: red;
+}
+
+.k-checkbox:last-child{
+    margin-bottom: 10rem;
+}
+
+.purpose-project-group{
+    margin-bottom: 2rem;
+}
+
+
+
+

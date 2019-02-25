@@ -1700,7 +1700,7 @@ pre code{
     font-weight:400;
     line-height:1.5;
     color:#495057;
-    background-color:#fff;
+    background-color:#e0eaf3;
     background-clip:padding-box;
     border:1px solid #ebedf2;
     border-radius:.25rem;
@@ -2201,8 +2201,8 @@ a.btn.disabled,fieldset:disabled a.btn{
 }
 .btn-primary:not(:disabled):not(.disabled):active,.btn-primary:not(:disabled):not(.disabled).active,.show>.btn-primary.dropdown-toggle{
     color:#fff;
-    background-color:#2e40d4;
-    border-color:#293ccc
+    background-color:#006aba;
+    border-color:#006aba
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus,.btn-primary:not(:disabled):not(.disabled).active:focus,.show>.btn-primary.dropdown-toggle:focus{
     -webkit-box-shadow:0 0 0 .2rem rgba(113,126,226,0.5);
@@ -9138,8 +9138,8 @@ input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus
 }
 .show>.btn.btn-default,.btn.btn-default.active,.btn.btn-default:active,.btn.btn-default:hover{
     color:#fff;
-    background:#5578eb;
-    border-color:#5578eb
+    background:#006ac0;
+    border-color:#006ac0
 }
 .show>.btn.btn-default i,.btn.btn-default.active i,.btn.btn-default:active i,.btn.btn-default:hover i{
     color:#fff
@@ -9151,8 +9151,8 @@ input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus
 }
 .btn-brand:hover{
     color:#fff;
-    background-color:#335de7;
-    border-color:#2754e6
+    background-color:#006aba;
+    border-color:#006aba
 }
 .btn-brand:focus,.btn-brand.focus{
     -webkit-box-shadow:0 0 0 .2rem rgba(111,140,238,0.5);
@@ -9414,17 +9414,17 @@ input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus
 }
 .btn-primary{
     color:#fff;
-    background-color:#5867dd;
-    border-color:#5867dd
+    background-color:#006ac7;
+    border-color:#006ac7
 }
 .btn-primary:hover{
     color:#fff;
-    background-color:#384ad7;
-    border-color:#2e40d4
+    background-color:#006aba;
+    border-color:#006aba
 }
 .btn-primary:focus,.btn-primary.focus{
-    -webkit-box-shadow:0 0 0 .2rem rgba(113,126,226,0.5);
-    box-shadow:0 0 0 .2rem rgba(113,126,226,0.5)
+    -webkit-box-shadow:0 0 0 .2rem rgba(0,106,186,1);
+    box-shadow:0 0 0 .2rem rgba(0,106,186,1)
 }
 .btn-primary.disabled,.btn-primary:disabled{
     color:#fff;
@@ -9433,12 +9433,12 @@ input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus
 }
 .btn-primary:not(:disabled):not(.disabled):active,.btn-primary:not(:disabled):not(.disabled).active,.show>.btn-primary.dropdown-toggle{
     color:#fff;
-    background-color:#2e40d4;
-    border-color:#293ccc
+    background-color:#006aba;
+    border-color:#006aba
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus,.btn-primary:not(:disabled):not(.disabled).active:focus,.show>.btn-primary.dropdown-toggle:focus{
-    -webkit-box-shadow:0 0 0 .2rem rgba(113,126,226,0.5);
-    box-shadow:0 0 0 .2rem rgba(113,126,226,0.5)
+    -webkit-box-shadow:0 0 0 .2rem rgba(0,106,186,1);
+    box-shadow:0 0 0 .2rem rgba(0,106,186,1)
 }
 .btn-primary+.btn.dropdown-toggle{
     position:relative
@@ -9934,8 +9934,8 @@ input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus
 }
 .show>.btn-hover-brand,.btn-hover-brand.active,.btn-hover-brand:active,.btn-hover-brand:hover{
     color:#fff;
-    background:#5578eb;
-    border-color:#5578eb
+    background:#006aba;
+    border-color:#006aba
 }
 .btn-outline-hover-brand{
     background:transparent
@@ -10167,10 +10167,10 @@ input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus
     color:#fff
 }
 .btn-font-dark{
-    color:#645ca1
+    color:#006aba
 }
 .show>.btn-font-hover-dark,.btn-font-hover-dark.active,.btn-font-hover-dark:active,.btn-font-hover-dark:hover{
-    color:#645ca1
+    color:#006aba
 }
 .btn-font-accent{
     color:#00c5dc
@@ -11872,8 +11872,8 @@ a.btn.btn-label-danger:focus,a.btn.btn-label-danger:hover,a.btn.btn-label-danger
     border-bottom:1px solid #5578eb
 }
 .nav-tabs.nav-tabs-line.nav-tabs-line-brand.nav.nav-tabs .nav-link:hover,.nav-tabs.nav-tabs-line.nav-tabs-line-brand.nav.nav-tabs .nav-link.active,.nav-tabs.nav-tabs-line.nav-tabs-line-brand a.nav-link:hover,.nav-tabs.nav-tabs-line.nav-tabs-line-brand a.nav-link.active{
-    color:#5578eb;
-    border-bottom:1px solid #5578eb
+    color:#006ac0;
+    border-bottom:1px solid #006ac0
 }
 .nav-tabs.nav-tabs-line.nav-tabs-line-brand.nav.nav-tabs .nav-link:hover>i,.nav-tabs.nav-tabs-line.nav-tabs-line-brand.nav.nav-tabs .nav-link.active>i,.nav-tabs.nav-tabs-line.nav-tabs-line-brand a.nav-link:hover>i,.nav-tabs.nav-tabs-line.nav-tabs-line-brand a.nav-link.active>i{
     color:#6c8aee
@@ -13411,7 +13411,7 @@ code{
 .k-slider .k-slider__head .k-slider__nav .k-slider__nav-next:hover,.k-slider .k-slider__head .k-slider__nav .k-slider__nav-prev:hover{
     -webkit-transition:all 0.3s;
     transition:all 0.3s;
-    background-color:#5578eb
+    background-color:#006ac0
 }
 .k-slider .k-slider__head .k-slider__nav .k-slider__nav-next:hover i,.k-slider .k-slider__head .k-slider__nav .k-slider__nav-prev:hover i{
     -webkit-transition:all 0.3s;
@@ -14068,7 +14068,7 @@ code{
     opacity:0.7
 }
 .k-nav .k-nav__section .k-nav__section-text{
-    color:#5578eb
+    color:#006ac0
 }
 .k-nav .k-nav__section .k-nav__section-icon{
     color:#c5cbe3
@@ -14673,7 +14673,7 @@ code{
     color:#3a62e8
 }
 .k-link:hover:after{
-    border-bottom:1px solid #3a62e8;
+    border-bottom:1px solid #006ac0;
     opacity:0.5
 }
 .k-link.k-link--general:after{
@@ -22947,7 +22947,7 @@ b,strong{
     color:#fff !important
 }
 .k-bg-brand{
-    background-color:#5578eb !important
+    background-color:#006ac0 !important
 }
 .k-bg-fill-brand{
     background-color:#5578eb !important;
@@ -26533,7 +26533,7 @@ b,strong{
     right:20px;
     cursor:pointer;
     z-index:90;
-    background:#5578eb;
+    background:#006ac0;
     -webkit-box-shadow:0 0 15px 1px rgba(69,65,78,0.2);
     box-shadow:0 0 15px 1px rgba(69,65,78,0.2);
     opacity:0;
@@ -26885,19 +26885,19 @@ th>.k-checkbox.k-checkbox--single,td>.k-checkbox.k-checkbox--single{
     opacity:0.7
 }
 .k-checkbox.k-checkbox--brand>span{
-    border:1px solid #5578eb
+    border:1px solid rgba(0,106,186,1)
 }
 .k-checkbox.k-checkbox--brand>span:after{
-    border:solid #5578eb
+    border:solid rgba(0,106,186,1)
 }
 .k-checkbox.k-checkbox--brand>input:disabled ~ span:after{
     border-color:#5578eb
 }
 .k-checkbox.k-checkbox--brand>input:checked ~ span{
-    border:1px solid #5578eb
+    border:1px solid rgba(0,106,186,1)
 }
 .k-checkbox.k-checkbox--brand.k-checkbox--bold>input:checked ~ span{
-    border:2px solid #5578eb
+    border:2px solid rgba(0,106,186,1)
 }
 .k-checkbox.k-checkbox--brand>input:disabled ~ span{
     opacity:0.6
@@ -29470,7 +29470,7 @@ th>.k-radio.k-radio--single,td>.k-radio.k-radio--single{
     color:#111
 }
 .fc-unthemed .fc-popover .fc-body .fc-event.fc-not-start.fc-not-end.fc-event-danger .fc-content:before,.fc-unthemed .fc-popover .fc-body .fc-event-dot.fc-not-start.fc-not-end.fc-event-danger .fc-content:before{
-    background:#fd397a
+    background:#006ac7
 }
 .fc-unthemed .fc-popover .fc-body .fc-event.fc-not-start.fc-not-end.fc-event-solid-danger,.fc-unthemed .fc-popover .fc-body .fc-event-dot.fc-not-start.fc-not-end.fc-event-solid-danger{
     background:#fd397a
@@ -29569,9 +29569,9 @@ th>.k-radio.k-radio--single,td>.k-radio.k-radio--single{
     color:#a1a8c3
 }
 .fc-unthemed .fc-toolbar .fc-button:focus,.fc-unthemed .fc-toolbar .fc-button:active,.fc-unthemed .fc-toolbar .fc-button.fc-state-active{
-    background:#5578eb;
+    background:#006aba;
     color:#fff;
-    border:1px solid #5578eb;
+    border:1px solid #006aba;
     -webkit-box-shadow:none;
     box-shadow:none;
     text-shadow:none
@@ -31378,8 +31378,8 @@ body{
     width:22px;
     height:22px;
     border:3px solid #efeff5;
-    margin-left:-11px;
-    top:-2px
+    margin-left: 4px;
+    top: 6px;
 }
 .k-header__topbar .k-header__topbar-item .k-header__topbar-wrapper .k-header__topbar-icon{
     display:-webkit-box;
@@ -31439,7 +31439,7 @@ body{
     width:38px
 }
 .k-header__topbar .k-header__topbar-item:hover .k-header__topbar-icon,.k-header__topbar .k-header__topbar-item.show .k-header__topbar-icon{
-    background-color:#5578eb;
+    background-color:#006aba;
     -webkit-transition:all 0.3s;
     transition:all 0.3s
 }
@@ -32805,7 +32805,7 @@ body{
     color:#646c9a
 }
 .k-footer .k-footer__menu .k-footer__menu-link:hover{
-    color:#5578eb
+    color:#006ac0
 }
 .k-footer .k-footer__menu .k-footer__menu-link:hover:after{
     border-bottom:1px solid #5578eb;
