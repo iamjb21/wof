@@ -9118,14 +9118,14 @@ input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus
     color:#93a2dd
 }
 .btn.btn-clean i{
-    color:#93a2dd
+    color:#006ac0
 }
 .show>.btn.btn-clean,.btn.btn-clean.active,.btn.btn-clean:active,.btn.btn-clean:hover{
-    color:#5578eb;
-    background:#f0f3ff
+    color:#006ac0;
+    background:rgba(0, 106, 192, 0.11)
 }
 .show>.btn.btn-clean i,.btn.btn-clean.active i,.btn.btn-clean:active i,.btn.btn-clean:hover i{
-    color:#5578eb
+    color:#006ac0
 }
 .btn.btn-default{
     border:0;
@@ -16128,7 +16128,7 @@ code{
     transition:all 0.3s
 }
 .k-widget-7 .k-widget-7__items .k-widget-7__item .k-widget-7__item-info .k-widget-7__item-title:hover{
-    color:#5578eb;
+    color:#006ac0;
     -webkit-transition:all 0.3s;
     transition:all 0.3s
 }
@@ -16500,7 +16500,7 @@ code{
     display:block
 }
 .k-widget-13 .k-widget-13__body .k-widget-13__title:hover{
-    color:#5578eb
+    color:#006ac0
 }
 .k-widget-13 .k-widget-13__body .k-widget-13__desc{
     font-weight:400;
