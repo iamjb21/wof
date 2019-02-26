@@ -440,4 +440,14 @@
         border-bottom:1px solid rgba(0,0,0,0.07) 
     }
 }
+.k-login-v1--enabled{
+        background: rgb(179, 207, 234) 0%;
+        background: -moz-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(0,6,171,1) 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(0,6,171,1)));
+        background: -webkit-linear-gradient(top, rgb(179, 207, 234) 0%, , rgb(0, 106, 186)) 100%);
+        background: -o-linear-gradient(top, rgb(179, 207, 234) 0%,  rgb(0, 106, 186) 100%);
+        background: -ms-linear-gradient(top, rgb(179, 207, 234) 0%,  rgb(0, 106, 186) 100%);
+        background: linear-gradient(to bottom, rgb(179, 207, 234) 0%,  rgb(0, 106, 186) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#0006ab', GradientType=0 )
+    }
  
