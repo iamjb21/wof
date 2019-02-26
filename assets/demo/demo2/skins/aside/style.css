@@ -1,7 +1,7 @@
 /** New Style **/
 
 .creative-user{
-    width: 40px;
+    width: 2.7rem;
     border-radius: 20px;
 }
 
@@ -133,5 +133,49 @@ sup{
 .k-login-v1 .k-login-v1__body .k-login-v1__body-wrapper .k-login-v1__body-container .k-login-v1__body-divider .k-divider>span:last-child {
     border-bottom: 1px solid #ffffff;
 }
+.k-widget-12 .k-widget-12__members .k-widget-12__member {
+    border-radius: 50%;
+    width: 2.7rem;
+    height: 2.7rem;
+    overflow: hidden;
+    margin-left: -0.7rem;
+    border: 1px solid #fff;
+    background-color: #f0f3ff;
+    color: #a1a8c3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-weight: 500;
+    position: relative;
+}
 
+.k-widget-12 .k-widget-12__members {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
 
+.k-widget-12 .k-widget-12__members .k-widget-12__member:nth-child(1) {
+    z-index: 1;
+}
+.k-widget-12 .k-widget-12__members .k-widget-12__member img {
+    width: 100%;
+}
