@@ -58,7 +58,24 @@ sup{
 .k-noportlet{
     margin-bottom: 0px !important
 }
+.k-aside__brand-logo a img {
+    width: 180px;
+}
+@media only screen and (max-width: 600px) {
+    .k-aside__brand-logo a img {
+    width: 150px;
+    }
+}
 
-
+@media (max-width: 1024px){
+.k-header-mobile {
+    background-color: #006ac7 !important;
+    -webkit-box-shadow: 0px 1px 9px -3px rgba(0,0,0,0.1);
+    box-shadow: 0px 1px 9px -3px rgba(0,0,0,0.1);
+}
+.k-header-mobile__logo a img {
+    width: 150px !important;
+    }
+}
 
 
