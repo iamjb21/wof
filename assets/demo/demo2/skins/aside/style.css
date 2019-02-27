@@ -179,3 +179,9 @@ sup{
 .k-widget-12 .k-widget-12__members .k-widget-12__member img {
     width: 100%;
 }
+
+.task_number{
+    font-weight: bold !important;
+    font-size: 2.1rem !important;
+    text-align: right;
+}

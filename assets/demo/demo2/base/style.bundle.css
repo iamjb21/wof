@@ -8776,7 +8776,7 @@ input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus
 }
 .tooltip.tooltip-dark .tooltip-inner{
     color:#fff;
-    background:#2c2e3e
+    background:#fff
 }
 .tooltip.tooltip-dark.bs-tooltip-top .arrow::before,.tooltip.tooltip-dark.bs-tooltip-auto[x-placement^="top"] .arrow::before{
     border-top-color:#2c2e3e
@@ -8794,20 +8794,20 @@ input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus
 }
 .tooltip.tooltip-brand .tooltip-inner{
     color:#fff;
-    background:#5578eb
+    background:#1a6ab5
 }
 .tooltip.tooltip-brand.bs-tooltip-top .arrow::before,.tooltip.tooltip-brand.bs-tooltip-auto[x-placement^="top"] .arrow::before{
-    border-top-color:#5578eb
+    border-top-color:#1a6ab5
 }
 .tooltip.tooltip-brand.bs-tooltip-right .arrow::before,.tooltip.tooltip-brand.bs-tooltip-auto[x-placement^="right"] .arrow::before{
-    border-right-color:#5578eb
+    border-right-color:#1a6ab5
     /*rtl:ignore*/
 }
 .tooltip.tooltip-brand.bs-tooltip-bottom .arrow::before,.tooltip.tooltip-brand.bs-tooltip-auto[x-placement^="bottom"] .arrow::before{
-    border-bottom-color:#5578eb
+    border-bottom-color:#1a6ab5
 }
 .tooltip.tooltip-brand.bs-tooltip-left .arrow::before,.tooltip.tooltip-brand.bs-tooltip-auto[x-placement^="left"] .arrow::before{
-    border-left-color:#5578eb
+    border-left-color:#1a6ab5
     /*rtl:ignore*/
 }
 .popover{
@@ -11863,7 +11863,7 @@ a.btn.btn-label-danger:focus,a.btn.btn-label-danger:hover,a.btn.btn-label-danger
 .nav-tabs.nav-tabs-line.nav.nav-tabs .nav-link:hover,.nav-tabs.nav-tabs-line.nav.nav-tabs .nav-link.active,.nav-tabs.nav-tabs-line a.nav-link:hover,.nav-tabs.nav-tabs-line a.nav-link.active{
     background:transparent;
     color:#646c9a;
-    border-bottom:1px solid #5578eb
+    border-bottom:1px solid #006aba
 }
 .nav-tabs.nav-tabs-line.nav.nav-tabs .nav-link:hover>i,.nav-tabs.nav-tabs-line.nav.nav-tabs .nav-link.active>i,.nav-tabs.nav-tabs-line a.nav-link:hover>i,.nav-tabs.nav-tabs-line a.nav-link.active>i{
     color:#a1a8c3
@@ -14012,10 +14012,10 @@ code{
     -webkit-transition:all 0.3s;
     transition:all 0.3s;
     background-color:#f7f8fa;
-    border-left:2px solid #5578eb
+    border-left:2px solid #006aba
 }
 .k-nav.k-nav--v3 .k-nav__item .k-nav__link.active .k-nav__link-text,.k-nav.k-nav--v3 .k-nav__item .k-nav__link.k-nav__link--active .k-nav__link-text{
-    color:#5578eb
+    color:#006aba
 }
 .k-nav.k-nav--v3 .k-nav__item .k-nav__link:hover{
     -webkit-transition:all 0.3s;
@@ -14023,7 +14023,7 @@ code{
     background-color:#f7f8fa
 }
 .k-nav.k-nav--v3 .k-nav__item .k-nav__link:hover .k-nav__link-text{
-    color:#5578eb
+    color:#006aba
 }
 .k-nav .k-nav__item>.k-nav__link{
     -webkit-transition:all 0.3s;
@@ -14048,7 +14048,7 @@ code{
     transition:all 0.3s
 }
 .k-nav .k-nav__item.k-nav__item--active>.k-nav__link .k-nav__link-icon,.k-nav .k-nav__item.k-nav__item--active>.k-nav__link .k-nav__link-text,.k-nav .k-nav__item.k-nav__item--active>.k-nav__link .k-nav__link-arrow,.k-nav .k-nav__item:hover:not(.k-nav__item--disabled):not(.k-nav__item--sub)>.k-nav__link .k-nav__link-icon,.k-nav .k-nav__item:hover:not(.k-nav__item--disabled):not(.k-nav__item--sub)>.k-nav__link .k-nav__link-text,.k-nav .k-nav__item:hover:not(.k-nav__item--disabled):not(.k-nav__item--sub)>.k-nav__link .k-nav__link-arrow{
-    color:#5578eb
+    color:#006aba
 }
 .k-nav .k-nav__item.k-nav__item--active>.k-nav__link .k-nav__link-bullet.k-nav__link-bullet--line>span,.k-nav .k-nav__item.k-nav__item--active>.k-nav__link .k-nav__link-bullet.k-nav__link-bullet--dot>span,.k-nav .k-nav__item:hover:not(.k-nav__item--disabled):not(.k-nav__item--sub)>.k-nav__link .k-nav__link-bullet.k-nav__link-bullet--line>span,.k-nav .k-nav__item:hover:not(.k-nav__item--disabled):not(.k-nav__item--sub)>.k-nav__link .k-nav__link-bullet.k-nav__link-bullet--dot>span{
     background-color:#5578eb
@@ -16466,7 +16466,7 @@ code{
 .k-widget-12 .k-widget-12__members .k-widget-12__member.k-widget-12__member--last:hover{
     -webkit-transition:all 0.3s;
     transition:all 0.3s;
-    background-color:#5578eb;
+    background-color:#1a6ab5;
     color:#fff
 }
 .k-widget-12 .k-widget-12__members .k-widget-12__member:nth-child(1){
