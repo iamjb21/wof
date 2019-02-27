@@ -9643,13 +9643,13 @@ input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus
     background-color:#f4f5f8 !important
 }
 .btn-outline-brand{
-    color:#5578eb;
-    border-color:#5578eb
+    color:#1a6ab4;
+    border-color:#1a6ab4
 }
 .btn-outline-brand:hover{
     color:#fff;
-    background-color:#5578eb;
-    border-color:#5578eb
+    background-color:#1a6ab4;
+    border-color:#1a6ab4
 }
 .btn-outline-brand:focus,.btn-outline-brand.focus{
     -webkit-box-shadow:0 0 0 .2rem rgba(85,120,235,0.5);
@@ -9661,8 +9661,8 @@ input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus
 }
 .btn-outline-brand:not(:disabled):not(.disabled):active,.btn-outline-brand:not(:disabled):not(.disabled).active,.show>.btn-outline-brand.dropdown-toggle{
     color:#fff;
-    background-color:#5578eb;
-    border-color:#5578eb
+    background-color:#1a6ab4;
+    border-color:#1a6ab4
 }
 .btn-outline-brand:not(:disabled):not(.disabled):active:focus,.btn-outline-brand:not(:disabled):not(.disabled).active:focus,.show>.btn-outline-brand.dropdown-toggle:focus{
     -webkit-box-shadow:0 0 0 .2rem rgba(85,120,235,0.5);
@@ -10974,7 +10974,7 @@ a.btn.btn-label-danger:focus,a.btn.btn-label-danger:hover,a.btn.btn-label-danger
     color:#a1a8c3
 }
 .modal .modal-content .modal-header .close{
-    color:#a1a8c3;
+    color:#1a6ab4;
     font-family:"LineAwesome";
     text-decoration:inherit;
     text-rendering:optimizeLegibility;
@@ -10991,7 +10991,8 @@ a.btn.btn-label-danger:focus,a.btn.btn-label-danger:hover,a.btn.btn-label-danger
 }
 .modal .modal-content .modal-header .close:hover{
     -webkit-transition:all 0.3s;
-    transition:all 0.3s
+    transition:all 0.3s;
+    color:#1a6ab4
 }
 .modal .modal-content .modal-header .close:before{
     font-size:1.3rem
@@ -11000,7 +11001,7 @@ a.btn.btn-label-danger:focus,a.btn.btn-label-danger:hover,a.btn.btn-label-danger
     display:none
 }
 .modal .modal-content .modal-header .close:hover{
-    color:#5578eb
+    color:#1a6ab4
 }
 .modal-open{
     overflow:auto !important;
@@ -29639,7 +29640,7 @@ th>.k-radio.k-radio--single,td>.k-radio.k-radio--single{
 }
 .datepicker tbody tr>td.day.today{
     position:relative;
-    background:rgba(85,120,235,0.7) !important;
+    background:rgb(0, 106, 186) !important;
     color:#fff !important
 }
 .datepicker tbody tr>td.day.today:before{

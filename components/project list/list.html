@@ -433,7 +433,7 @@
             <div class="k-user-card k-margin-b-50 k-margin-b-30-tablet-and-mobile" style="background-image: url(../../assets/media/misc/head_bg_sm.jpg)">
     <div class="k-user-card__wrapper">
         <div class="k-user-card__pic">
-            <img alt="Pic" src="assets/media/users/300_21.jpg" />
+            <img alt="Pic" src="../assets/media/users/300_21.jpg" />
         </div>
         <div class="k-user-card__details">
             <div class="k-user-card__name">Alex Stone</div>
@@ -444,31 +444,31 @@
 
 <ul class="k-nav k-margin-b-10">
     <li class="k-nav__item">
-        <a href="https://keenthemes.com/keen/preview/demo2/custom/user/profile-v1.html" class="k-nav__link">
+        <a href="../../profile.html" class="k-nav__link">
             <span class="k-nav__link-icon"><i class="flaticon2-calendar-3"></i></span>
             <span class="k-nav__link-text">My Profile</span>
         </a>
     </li>
     <li class="k-nav__item">
-        <a href="https://keenthemes.com/keen/preview/demo2/custom/user/profile-v1.html" class="k-nav__link">
+        <a href="#" class="k-nav__link">
             <span class="k-nav__link-icon"><i class="flaticon2-browser-2"></i></span>
             <span class="k-nav__link-text">My Tasks</span>
         </a>
     </li>
     <li class="k-nav__item">
-        <a href="https://keenthemes.com/keen/preview/demo2/custom/user/profile-v1.html" class="k-nav__link">
+        <a href="#" class="k-nav__link">
             <span class="k-nav__link-icon"><i class="flaticon2-mail"></i></span>
             <span class="k-nav__link-text">Messages</span>
         </a>
     </li>
     <li class="k-nav__item">
-        <a href="https://keenthemes.com/keen/preview/demo2/custom/user/profile-v1.html" class="k-nav__link">
+        <a href="#" class="k-nav__link">
             <span class="k-nav__link-icon"><i class="flaticon2-gear"></i></span>
             <span class="k-nav__link-text">Settings</span>
         </a>
     </li>
     <li class="k-nav__item k-nav__item--custom k-margin-t-15">
-        <a href="https://keenthemes.com/keen/preview/demo2/custom/user/login-v2.html" target="_blank" class="btn btn-outline-metal btn-hover-brand btn-upper btn-font-dark btn-sm btn-bold">Sign Out</a>
+        <a href="../../login.html" target="_blank" class="btn btn-outline-metal btn-hover-brand btn-upper btn-font-dark btn-sm btn-bold">Sign Out</a>
     </li>
 </ul>       </div>
     </div>
@@ -518,9 +518,334 @@
                 <div class="k-portlet__head-toolbar">
                     <div class="k-portlet__head-group">
                         <div class="btn-group">
-                            <button type="button" class="btn btn-pill btn-elevate btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="la la-plus"></i> Request New Task
-                            </button>
+                            <div class="k-section__content k-section__content--border">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-outline-brand" data-toggle="modal" data-target="#exampleModal">
+                            Request New Work<i class="la la-plus"></i>
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display: none;">
+                            <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <div class="col-4">
+                                            <h5 class="modal-title" id="exampleModalLabel">Request New Work</h5>
+                                        </div>
+                                        <div class="col-7">
+                                            <ul class="nav nav-pills nav-tabs-btn" role="tablist">
+                                                <li class="nav-item">
+                                                    <a class="nav-link active" data-toggle="tab" href="#k_tabs_8_1" role="tab" aria-selected="true">
+                                                        <span class="nav-link-title">General Information</span>
+                                                    </a>
+                                                </li> 
+                                                <li class="nav-item">
+                                                    <a class="nav-link" data-toggle="tab" href="#k_tabs_8_2" role="tab" aria-selected="false">
+                                                        <span class="nav-link-title">Project Information</span>
+                                                    </a>
+                                                </li>                   
+                                                <li class="nav-item">
+                                                   <a class="nav-link" data-toggle="tab" href="#k_tabs_8_3" role="tab" aria-selected="false">
+                                                        <span class="nav-link-title">Notes</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-1">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">×</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="tab-content">
+                                            <div class="tab-pane fade active show" id="k_tabs_8_1" role="tabpanel">
+                                                <!--begin::Form-->
+                                                     <form class="k-form">
+                                                        <div class="k-portlet__body">  
+                                                                      <div class="text-muted-group row">
+                                                            <div class="col-12">
+                                                                <span class="form-text text-muted">Please use this Work Order Form to submit request to the Creative Design Team
+                                                                </span>
+                                                                <span class="form-text text-muted text-sup-muted">Please allow a minimum of one week prior to your requested deadline.</span>
+                                                              </div>
+                                                        </div>      
+                                                            <div class="form-group row">
+                                                                <label for="example-text-input" class="col-3 col-form-label">Project Name:</label>
+                                                                <div class="col-9">
+                                                                    <input type="email" class="form-control" placeholder="Project Name">
+                                                                    <span class="form-text text-muted">Please enter project name</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group row">
+                                                                <label for="example-text-input" class="col-3 col-form-label">Request Date:</label>
+                                                                <div class="col-5">
+                                                                     <input type="text" class="form-control" id="k_datepicker_1" readonly="" placeholder="Select date">
+                                                                    <span class="form-text text-muted">Exact date of the task requested</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group row">
+                                                                <label for="example-text-input" class="col-3 col-form-label">Requestor Name:</label>
+                                                                <div class="col-9">
+                                                                    <input type="email" class="form-control" placeholder="Requestor Name">
+                                                                    <span class="form-text text-muted">Requestor's Name</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group row">
+                                                                <label for="example-text-input" class="col-3 col-form-label">Specific Calendar date FA is needed:</label>
+                                                                <div class="col-5">
+                                                                     <input type="text" class="form-control" id="k_datepicker_1" readonly="" placeholder="Select date">
+                                                                    <span class="form-text text-muted">Please allow a minimum of one week prior to your requested deadline.</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- <div class="k-portlet__foot k-portlet__foot--solid">
+                                                            <div class="k-form__actions">
+                                                                <div class="row">
+                                                                    <div class="col-10">
+
+                                                                    </div>
+                                                                    <div class="col-2">
+                                                                        <button type="reset" class="btn btn-brand">Next</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div> -->
+                                                    </form>
+                                                    <!--end::Form-->         
+                                            </div>
+                    <div class="tab-pane fade" id="k_tabs_8_2" role="tabpanel">
+                        <form class="k-form">
+                                <div class="k-portlet__body">  
+                                <div class="text-muted-group row">
+                                    <div class="col-12">
+                                        <span class="form-text text-muted">Please use this Work Order Form to submit request to the Creative Design Team
+                                        </span>
+                                        <span class="form-text text-muted text-sup-muted">Please allow a minimum of one week prior to your requested deadline.</span>
+                                      </div>
+                                </div>             
+                                    <div class="form-group row">
+                                        <div class="col-5">
+                                            <div class="k-checkbox-list">
+                                                <label>Which best decribe this project?<sup>*</sup></label>
+                                                <label class="k-checkbox k-checkbox--brand">
+                                                    <input type="checkbox"> New Design
+                                                    <span></span>
+                                                </label>
+                                                <label class="k-checkbox k-checkbox--brand">
+                                                    <input type="checkbox"> Re-design of a pre-existing piece
+                                                    <span></span>
+                                                </label>
+                                                <label class="k-checkbox k-checkbox--brand">
+                                                    <input type="checkbox"> Content revision to a pre-existing piece
+                                                    <span></span>
+                                                </label>
+                                                <label class="k-checkbox k-checkbox--brand">
+                                                    <input type="checkbox"> Exact re-doing of a pre-existing piece
+                                                    <span></span>
+                                                </label>
+                                                <label class="k-checkbox k-checkbox--brand">
+                                                    <input type="checkbox"> Brochure/Flyer
+                                                    <span></span>
+                                                </label>
+                                                <label class="k-checkbox k-checkbox--brand">
+                                                    <input type="checkbox"> Certificate/Plaque
+                                                    <span></span>
+                                                </label>
+                                                <label class="k-checkbox k-checkbox--brand">
+                                                    <input type="checkbox"> Program
+                                                    <span></span>
+                                                </label>
+                                                <label class="k-checkbox k-checkbox--brand">
+                                                    <input type="checkbox"> Invitation
+                                                    <span></span>
+                                                </label>
+                                                <label class="k-checkbox k-checkbox--brand">
+                                                    <input type="checkbox"> Postcard
+                                                    <span></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-5">
+                                             <div class="k-checkbox-list">
+                                                 <label class="k-checkbox k-checkbox--brand">
+                                                    <input type="checkbox"> Poster
+                                                    <span></span>
+                                                </label>
+                                                <label class="k-checkbox k-checkbox--brand">
+                                                    <input type="checkbox"> E-commerce Web Design
+                                                    <span></span>
+                                                </label>
+                                                <label class="k-checkbox k-checkbox--brand">
+                                                    <input type="checkbox"> Print advertisement
+                                                    <span></span>
+                                                </label>
+                                                <label class="k-checkbox k-checkbox--brand">
+                                                    <input type="checkbox"> Photography
+                                                    <span></span>
+                                                </label>
+                                                <label class="k-checkbox k-checkbox--brand">
+                                                    <input type="checkbox"> Banner
+                                                    <span></span>
+                                                </label>
+                                                <label class="k-checkbox k-checkbox--brand">
+                                                    <input type="checkbox"> Marketing Consultation
+                                                    <span></span>
+                                                </label>
+                                                 <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter Others">
+                                                  <div class="form-group">
+                                                    <label for="exampleSelect1">Type of this Project</label>
+                                                    <select class="form-control" id="exampleSelect1">
+                                                        
+                                                        <option value="1">Graphic</option>
+                                                        <option value="1">Mobile</option>
+                                                        <option value="1">Website</option>
+                                                        <option value="1">Video</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="k-portlet__foot k-portlet__foot--solid">
+                                    <div class="k-form__actions">
+                                        <div class="row">
+                                            <div class="col-10">
+
+                                            </div>
+                                            <div class="col-2">
+                                                <button type="reset" class="btn btn-secondary">Back</button>
+                                                <button type="reset" class="btn btn-brand">Next</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </form>
+                            <!--end::Form-->         
+                    </div>
+                    <div class="tab-pane fade" id="k_tabs_8_3" role="tabpanel">
+                               <form class="k-form">
+                                <div class="k-portlet__body">  
+                                <div class="text-muted-group row">
+                                    <div class="col-12">
+                                        <span class="form-text text-muted">Please use this Work Order Form to submit request to the Creative Design Team
+                                        </span>
+                                        <span class="form-text text-muted text-sup-muted">Please allow a minimum of one week prior to your requested deadline.</span>
+                                      </div>
+                                </div>             
+                                    <div class="form-group row">
+                                        <div class="col-5">
+                                            <div class="k-checkbox-list">
+                                                <label>Which services is needed?<sup>*</sup></label>
+                                                <label class="k-checkbox k-checkbox--brand">
+                                                    <input type="checkbox"> Consultation
+                                                    <span></span>
+                                                </label>
+                                                <label class="k-checkbox k-checkbox--brand">
+                                                    <input type="checkbox"> Writing
+                                                    <span></span>
+                                                </label>
+                                                <label class="k-checkbox k-checkbox--brand">
+                                                    <input type="checkbox"> Editing
+                                                    <span></span>
+                                                </label>
+                                                <label class="k-checkbox k-checkbox--brand">
+                                                    <input type="checkbox"> Graphic Design
+                                                    <span></span>
+                                                </label>
+                                                <label class="k-checkbox k-checkbox--brand">
+                                                    <input type="checkbox"> Photography
+                                                    <span></span>
+                                                </label>
+                                                <label class="k-checkbox k-checkbox--brand">
+                                                    <input type="checkbox"> Illustration
+                                                    <span></span>
+                                                </label>
+                                                <label class="k-checkbox k-checkbox--brand">
+                                                    <input type="checkbox"> Video Animation
+                                                    <span></span>
+                                                </label>
+                                                <label>If Graphic Design which of the following will you provide?<sup>*</sup></label>
+                                                <label class="k-checkbox k-checkbox--brand">
+                                                    <input type="checkbox"> Text (Subject ro editing by Marketing)
+                                                    <span></span>
+                                                </label>
+                                                <label class="k-checkbox k-checkbox--brand">
+                                                    <input type="checkbox"> Photography
+                                                    <span></span>
+                                                </label>
+                                                 <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter Others">
+                                            </div>
+                                        </div>
+                                        <div class="col-7">
+                                            <div class="form-group">
+                        <label>If theres a necessary files to be uploaded (also upload design brief here)</label>
+                        <div></div>
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="customFile">
+                            <label class="custom-file-label" for="customFile">Choose file</label>
+                        </div>
+                    </div>
+                                            <div class="purpose-project-group">
+                                                <label for="example-text-input" class="col-12 col-form-label">Purpose of the Project:<sup>*</sup></label>
+                                                    <div class="col-12">
+                                                        <input type="email" class="form-control" placeholder="Purpose of Project">
+                                                        <span class="form-text text-muted">Please enter purpose of the project</span>
+                                                    </div>
+                                                     <label for="example-text-input" class="col-12 col-form-label">Audience of Project:<sup>*</sup></label>
+                                                    <div class="col-12">
+                                                        <input type="email" class="form-control" placeholder="Audience">
+                                                        <span class="form-text text-muted">Please enter audience of project</span>
+                                                    </div>
+                                            </div>
+                                             <div class="k-checkbox-list">
+                                                <label>Assigned this Project to<sup>*</sup></label>
+                                                 
+                                                <label class="k-checkbox k-checkbox--brand">
+                                                    <input type="checkbox"> JB Halawig
+                                                    <span></span>
+                                                </label>
+                                                <label class="k-checkbox k-checkbox--brand">
+                                                    <input type="checkbox"> Meryll Estolas
+                                                    <span></span>
+                                                </label>
+                                                <label class="k-checkbox k-checkbox--brand">
+                                                    <input type="checkbox"> Karen Dela Fuente
+                                                    <span></span>
+                                                </label>
+                                                <span class="form-text text-muted text-sup-muted"><sup>*</sup>Note: if a "new design" is requested, please be prepared to provide samples of existing collateral to illustrate your ideas and please attach the actual design brief from client.</span>    
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="k-portlet__foot k-portlet__foot--solid">
+                                    <div class="k-form__actions">
+                                        <div class="row">
+                                            <div class="col-10">
+
+                                            </div>
+                                            <div class="col-2">
+                                                <button type="reset" class="btn btn-secondary">Back</button>
+                                                <button type="reset" class="btn btn-brand">Submit</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </form>
+                            <!--end::Form-->  
+                    </div>
+                </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-outline-brand" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-brand">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                             <div class="dropdown-menu dropdown-menu-right">
                                 <a class="dropdown-item" href="basic.html#">Action</a>
                                 <a class="dropdown-item" href="basic.html#">Another action</a>
@@ -1293,122 +1618,6 @@
     <i class="la la-arrow-up"></i>
 </div>
 <!-- end:: Scrolltop -->  
-
-<div id="k_demo_panel" class="k-demo-panel">
-    <div class="k-demo-panel__head">
-        <h3 class="k-demo-panel__title">
-            Select A Demo
-            <!--<small>5</small>-->
-        </h3>
-        <a href="#" class="k-demo-panel__close" id="k_demo_panel_close"><i class="flaticon2-delete"></i></a>
-    </div>
-    <div class="k-demo-panel__body">
-        <div class="k-demo-panel__item ">
-                    <div class="k-demo-panel__item-title">
-                        Default
-                    </div>
-                    <div class="k-demo-panel__item-preview">
-                        <img src="./assets/media/demos-mini/default.png" alt=""/>
-                        <div class="k-demo-panel__item-preview-overlay">
-                            <a href="?page=components/datatables/search-options/advanced-search&demo=default" class="btn btn-brand btn-elevate " target="_blank">Default</a>
-                            <a href="?page=components/datatables/search-options/advanced-search&demo=default&rtl=1" class="btn btn-light btn-elevate" target="_blank">RTL Version</a>
-                        </div>
-                    </div>                    
-                </div><div class="k-demo-panel__item k-demo-panel__item--active">
-                    <div class="k-demo-panel__item-title">
-                        Demo 2
-                    </div>
-                    <div class="k-demo-panel__item-preview">
-                        <img src="./assets/media/demos-mini/demo2.png" alt=""/>
-                        <div class="k-demo-panel__item-preview-overlay">
-                            <a href="?page=components/datatables/search-options/advanced-search&demo=demo2" class="btn btn-brand btn-elevate " target="_blank">Default</a>
-                            <a href="?page=components/datatables/search-options/advanced-search&demo=demo2&rtl=1" class="btn btn-light btn-elevate" target="_blank">RTL Version</a>
-                        </div>
-                    </div>                    
-                </div><div class="k-demo-panel__item ">
-                    <div class="k-demo-panel__item-title">
-                        Demo 3
-                    </div>
-                    <div class="k-demo-panel__item-preview">
-                        <img src="./assets/media/demos-mini/demo3.png" alt=""/>
-                        <div class="k-demo-panel__item-preview-overlay">
-                            <a href="?page=components/datatables/search-options/advanced-search&demo=demo3" class="btn btn-brand btn-elevate " target="_blank">Default</a>
-                            <a href="?page=components/datatables/search-options/advanced-search&demo=demo3&rtl=1" class="btn btn-light btn-elevate" target="_blank">RTL Version</a>
-                        </div>
-                    </div>                    
-                </div><div class="k-demo-panel__item ">
-                    <div class="k-demo-panel__item-title">
-                        Demo 4
-                    </div>
-                    <div class="k-demo-panel__item-preview">
-                        <img src="./assets/media/demos-mini/demo4.png" alt=""/>
-                        <div class="k-demo-panel__item-preview-overlay">
-                            <a href="?page=components/datatables/search-options/advanced-search&demo=demo4" class="btn btn-brand btn-elevate " target="_blank">Default</a>
-                            <a href="?page=components/datatables/search-options/advanced-search&demo=demo4&rtl=1" class="btn btn-light btn-elevate" target="_blank">RTL Version</a>
-                        </div>
-                    </div>                    
-                </div><div class="k-demo-panel__item ">
-                    <div class="k-demo-panel__item-title">
-                        Demo 5
-                    </div>
-                    <div class="k-demo-panel__item-preview">
-                        <img src="./assets/media/demos-mini/demo5.png" alt=""/>
-                        <div class="k-demo-panel__item-preview-overlay">
-                            <a href="?page=components/datatables/search-options/advanced-search&demo=demo5" class="btn btn-brand btn-elevate " target="_blank">Default</a>
-                            <a href="?page=components/datatables/search-options/advanced-search&demo=demo5&rtl=1" class="btn btn-light btn-elevate" target="_blank">RTL Version</a>
-                        </div>
-                    </div>                    
-                </div><div class="k-demo-panel__item ">
-                    <div class="k-demo-panel__item-title">
-                        Demo 6
-                    </div>
-                    <div class="k-demo-panel__item-preview">
-                        <img src="./assets/media/demos-mini/demo6.jpg" alt=""/>
-                        <div class="k-demo-panel__item-preview-overlay">
-                            <a href="?page=components/datatables/search-options/advanced-search&demo=demo6" class="btn btn-brand btn-elevate " target="_blank">Default</a>
-                            <a href="?page=components/datatables/search-options/advanced-search&demo=demo6&rtl=1" class="btn btn-light btn-elevate" target="_blank">RTL Version</a>
-                        </div>
-                    </div>                    
-                </div><div class="k-demo-panel__item ">
-                    <div class="k-demo-panel__item-title">
-                        Demo 7
-                    </div>
-                    <div class="k-demo-panel__item-preview">
-                        <img src="./assets/media/demos-mini/demo7.jpg" alt=""/>
-                        <div class="k-demo-panel__item-preview-overlay">
-                            <a href="#" class="btn btn-brand btn-elevate disabled" >Coming soon</a>
-                            
-                        </div>
-                    </div>                    
-                </div><div class="k-demo-panel__item ">
-                    <div class="k-demo-panel__item-title">
-                        Demo 8
-                    </div>
-                    <div class="k-demo-panel__item-preview">
-                        <img src="./assets/media/demos-mini/demo8.jpg" alt=""/>
-                        <div class="k-demo-panel__item-preview-overlay">
-                            <a href="#" class="btn btn-brand btn-elevate disabled" >Coming soon</a>
-                            
-                        </div>
-                    </div>                    
-                </div><div class="k-demo-panel__item ">
-                    <div class="k-demo-panel__item-title">
-                        Demo 9
-                    </div>
-                    <div class="k-demo-panel__item-preview">
-                        <img src="./assets/media/demos-mini/demo9.jpg" alt=""/>
-                        <div class="k-demo-panel__item-preview-overlay">
-                            <a href="#" class="btn btn-brand btn-elevate disabled" >Coming soon</a>
-                            
-                        </div>
-                    </div>                    
-                </div>
-        <a href="https://themes.getbootstrap.com/product/keen-the-ultimate-bootstrap-admin-theme/" target="_blank" class="k-demo-panel__purchase btn btn-brand btn-elevate btn-bold btn-upper">
-            Buy Keen Now!
-        </a>
-    </div>
-</div>
-<!-- end::Demo Panel -->
         <!-- begin::Global Config(global config for global JS sciprts) -->
         <script>
             var KAppOptions = {
